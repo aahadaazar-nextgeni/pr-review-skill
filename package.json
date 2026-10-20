@@ -1,0 +1,25 @@
+{
+  "name": "pr-review-skill",
+  "version": "0.1.0",
+  "description": "Pull request review skill for Claude Code, with blast-radius ratings and strict test checks",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aahadaazar-nextgeni/pr-review-skill.git"
+  },
+  "bin": {
+    "pr-review-skill": "bin/pr-review-install.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  }
+}
